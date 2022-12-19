@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+   int a=8;
+   int b=3;
+   if((a&(1<<b))==0){
+       printf("OFF");
+   }
+   else{
+       printf("ON");
+   }
+
+    return 0;
+}
